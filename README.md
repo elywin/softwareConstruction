@@ -1,3 +1,21 @@
+## Histoy of software
+From machines like the ENIAC computer to smartphones and other devices, computing has seen incredibly rapid technological change. These hardware upgrades would mean little, without the accompanying birth and growth of software development. From operating systems and spreadsheets to mobile apps and games, you interact with software every time you use a computer.
+
+**What Is Software?**<br>
+Software is the interface between computer systems and the humans who use them. Software consists of programming instructions and data that tell the computer how to execute various tasks. The instructions are written in a higher-level language, which is easier to use for human programmers, and then converted into low-level machine code that the computer can directly understand.
+
+**The Early Days of Software**<br>
+Computer scientist Tom Kilburn is responsible for writing the world’s very first piece of software, at the University of Manchester in England. Kilburn and his colleague Freddie Williams had built one of the earliest computers, the Manchester Small-Scale Experimental Machine (also known as the “Baby”). The SSEM was programmed to perform mathematical calculations using machine code instructions. This first piece of software took “only” 52 minutes to correctly compute the greatest divisor of 2 to the power of 18 (262,144). For decades after this groundbreaking event, computers were programmed with punch cards in which holes denoted specific machine code instructions, if the dot was punched, it represented a zero, If it wasn’t, it was a one. These cards would later be replaced by reels of magnetic tape.. Fortran, one of the very first higher-level programming languages, was originally published in 1957. The next year, statistician John Tukey coined the word “software” in an article about computer programming. Other pioneering programming languages like Cobol, BASIC, Pascal and C arrived over the next two decades. During this time(1950's), a number of different types of programming software were created. Many of the early pieces of software weren’t available commercially, instead, computer users (mostly scientists and large businesses) often had to write their software themselves. This did have some advantages: the software was tailored for the specific needs of the user, and the user understood exactly what the software was doing. However, the disadvantages were much greater. Every business or lab had to have someone capable of programming the computer, and the software often couldn’t be traded to others because it was created for one specific computer system.
+
+When computers became small enough to be sold to individuals, software became much more prevalent. Home users couldn’t program their computers themselves – the average person wouldn’t want to take the time to learn programming languages. Instead, the operating system was created. This specialized software ran the computer and launched other software as the user needed it. One of the earliest operating systems was MS-DOS, the operating system many of the early IBM computers used.
+
+**Software Development Today**<br>
+Today, software has become ubiquitous, even in places that you might not expect it, from crock pots to nuclear submarines. Some programming languages, like C and Cobol, have survived the test of time and are still in use. Other languages, such as Java and Python, are somewhat younger and have been used in countless software development projects. Still others, such as Apple’s Swift programming language for iOS or Go Open source, are relatively new and growing.
+
+**The future of software development**<br>
+With computers and tech now playing such a major part in all our lives, plus the impending growth of the Internet of Things (IoT), there’s little doubt that software will continue to shape our societies. Like many industry analysts believe we are now in the era of a fourth industrial revolution – a time when machines and the software that drives them will come to dominate.
+
+Technology continues to evolve, and it’s difficult to say what the future of software entails. With services like the cloud computing now being offered, users don’t even need to download software to their computers they can run programs directly from the cloud with minimal installation. While artificial intelligence and self-aware robots seem like the stuff of science fiction, it’s actually possible that the computers of the future will be able to program themselves. Advanced programs may be able to develop code for new programs based on what the user enters or needs. They may even be able to create newer, improved versions of themselves or design entirely new operating systems. Perhaps we won’t even need to use a keyboard and mouse to use future software perhaps we’ll simply be able to think our commands to the computer!
 # Software Process Models: 
 A software process model is a simplified representation of a software process.
 
@@ -417,6 +435,8 @@ The disadvantages of the Big Bang Model are as follows −
 - Can turn out to be very expensive if requirements are misunderstood.
 
 
-**REFERENCE**
+**REFERENCES**
 
 - https://www.tutorialspoint.com/sdlc/sdlc_bigbang_model.htm
+- https://medium.com/@micahyost/a-brief-history-of-software-development-f67a6e6ddae0
+- https://bscdesigner.com/software-history.htm
