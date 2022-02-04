@@ -415,3 +415,8 @@ The disadvantages of the Big Bang Model are as follows −
 - Poor model for long and ongoing projects.
 
 - Can turn out to be very expensive if requirements are misunderstood.
+
+
+**REFERENCE**
+
+- https://www.tutorialspoint.com/sdlc/sdlc_bigbang_model.htm
