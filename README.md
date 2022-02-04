@@ -440,3 +440,4 @@ The disadvantages of the Big Bang Model are as follows −
 - https://www.tutorialspoint.com/sdlc/sdlc_bigbang_model.htm
 - https://medium.com/@micahyost/a-brief-history-of-software-development-f67a6e6ddae0
 - https://bscdesigner.com/software-history.htm
+- https://blogs.oregonstate.edu/articles/a-short-history-of-software-development/
