@@ -245,3 +245,73 @@ The disadvantages of the Spiral SDLC Model are as follows −
 
 - Large number of intermediate stages requires excessive documentation.
 
+## Agile model
+Agile SDLC model is a combination of iterative and incremental process models with focus on process adaptability and customer satisfaction by rapid delivery of working software product. Agile Methods break the product into small incremental builds. These builds are provided in iterations. Each iteration typically lasts from about one to three weeks. Every iteration involves cross functional teams working simultaneously on various areas like −
+
+- Planning
+- Requirements Analysis
+- Design
+- Coding
+- Unit Testing and
+- Acceptance Testing.
+
+<img src="sdlc_agile_model.jpg" width="500" >
+
+
+The most popular Agile methods include Rational Unified Process (1994), Scrum (1995), Crystal Clear, Extreme Programming (1996), Adaptive Software Development, Feature Driven Development, and Dynamic Systems Development Method (DSDM) (1995).
+
+Following are the Agile Manifesto principles −
+
+- Individuals and interactions − In Agile development, self-organization and motivation are important, as are interactions like co-location and pair programming.
+
+- Working software − Demo working software is considered the best means of communication with the customers to understand their requirements, instead of just depending on documentation.
+
+- Customer collaboration − As the requirements cannot be gathered completely in the beginning of the project due to various factors, continuous customer interaction is very important to get proper product requirements.
+
+- Responding to change − Agile Development is focused on quick responses to change and continuous development.
+
+**Advantages**
+
+The advantages of the Agile Model are as follows −
+
+- Is a very realistic approach to software development.
+
+- Promotes teamwork and cross training.
+
+- Functionality can be developed rapidly and demonstrated.
+
+- Resource requirements are minimum.
+
+- Suitable for fixed or changing requirements
+
+- Delivers early partial working solutions.
+
+- Good model for environments that change steadily.
+
+- Minimal rules, documentation easily employed.
+
+- Enables concurrent development and delivery within an overall planned context.
+
+- Little or no planning required.
+
+- Easy to manage.
+
+- Gives flexibility to developers.
+
+**Disadvantages**
+
+The disadvantages of the Agile Model are as follows −
+
+- Not suitable for handling complex dependencies.
+
+- More risk of sustainability, maintainability and extensibility.
+
+- An overall plan, an agile leader and agile PM practice is a must without which it will not work.
+
+- Strict delivery management dictates the scope, functionality to be delivered, and adjustments to meet the deadlines.
+
+- Depends heavily on customer interaction, so if customer is not clear, team can be driven in the wrong direction.
+
+- There is a very high individual dependency, since there is minimum documentation generated.
+
+- Transfer of technology to new team members may be quite challenging due to lack of documentation.
