@@ -18,7 +18,7 @@ The sequential phases in Waterfall model are −
 
 - Maintenance − There are some issues which come up in the client environment. To fix those issues, patches are released. Also to enhance the product some better versions are released. Maintenance is done to deliver these changes in the customer environment.
 
-<img src="sdlc_waterfall_model.jpg" width="1000" >
+<img src="sdlc_waterfall_model.jpg" width="500" >
 
 **Application**<br>
 
