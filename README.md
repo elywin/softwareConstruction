@@ -61,3 +61,68 @@ Some of the major advantages of the Waterfall Model are as follows −
 - Adjusting scope during the life cycle can end a project.
 
 - Integration is done as a "big-bang. at the very end, which doesn't allow identifying any technological or business bottleneck or challenges early.
+
+## Iterative Model
+
+Iterative process starts with a simple implementation of a subset of the software requirements and iteratively enhances the evolving versions until the full system is implemented. At each iteration, design modifications are made and new functional capabilities are added.
+
+<img src="sdlc_iterative_model.jpg" width="500" >
+
+
+**Application**
+
+**Advantages**
+Some of the advantages of the Iterative and Incremental SDLC Model are as follows −
+
+- Some working functionality can be developed quickly and early in the life cycle.
+
+- Results are obtained early and periodically.
+
+- Parallel development can be planned.
+
+- Progress can be measured.
+
+- Less costly to change the scope/requirements.
+
+- Testing and debugging during smaller iteration is easy.
+
+- Risks are identified and resolved during iteration; and each iteration is an easily managed milestone.
+
+- Easier to manage risk - High risk part is done first.
+
+- With every increment, operational product is delivered.
+
+- Issues, challenges and risks identified from each increment can be utilized/applied to the next increment.
+
+- Risk analysis is better.
+
+- It supports changing requirements.
+
+- Initial Operating time is less.
+
+- Better suited for large and mission-critical projects.
+
+- During the life cycle, software is produced early which facilitates customer evaluation and feedback.
+
+**Disadvantages**
+Some of the disadvantages of the Iterative and Incremental SDLC Model are as follows −
+
+- More resources may be required.
+
+- Although cost of change is lesser, but it is not very suitable for changing requirements.
+
+- More management attention is required.
+
+- System architecture or design issues may arise because not all requirements are gathered in the beginning of the entire life cycle.
+
+- Defining increments may require definition of the complete system.
+
+- Not suitable for smaller projects.
+
+- Management complexity is more.
+
+- End of project may not be known which is a risk.
+
+- Highly skilled resources are required for risk analysis.
+
+- Projects progress is highly dependent upon the risk analysis phase.
