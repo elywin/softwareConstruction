@@ -315,3 +315,70 @@ The disadvantages of the Agile Model are as follows −
 - There is a very high individual dependency, since there is minimum documentation generated.
 
 - Transfer of technology to new team members may be quite challenging due to lack of documentation.
+
+## RAD Model
+RAD model distributes the analysis, design, build and test phases into a series of short, iterative development cycles.
+
+<img src="sdlc_rad_model.jpg" width="500" >
+
+
+Following are the various phases of the RAD Model −
+
+**Business Modelling**<br>
+The business model for the product under development is designed in terms of flow of information and the distribution of information between various business channels. A complete business analysis is performed to find the vital information for business, how it can be obtained, how and when is the information processed and what are the factors driving successful flow of information.
+
+**Data Modelling**<br>
+The information gathered in the Business Modelling phase is reviewed and analyzed to form sets of data objects vital for the business. The attributes of all data sets is identified and defined. The relation between these data objects are established and defined in detail in relevance to the business model.
+
+**Process Modelling**<br>
+The data object sets defined in the Data Modelling phase are converted to establish the business information flow needed to achieve specific business objectives as per the business model. The process model for any changes or enhancements to the data object sets is defined in this phase. Process descriptions for adding, deleting, retrieving or modifying a data object are given.
+
+**Application Generation**<br>
+The actual system is built and coding is done by using automation tools to convert process and data models into actual prototypes.
+
+**Testing and Turnover**<br>
+The overall testing time is reduced in the RAD model as the prototypes are independently tested during every iteration. However, the data flow and the interfaces between all the components need to be thoroughly tested with complete test coverage. Since most of the programming components have already been tested, it reduces the risk of any major issues.
+
+**Advantages**
+
+The advantages of the RAD Model are as follows −
+
+- Changing requirements can be accommodated.
+
+- Progress can be measured.
+
+- Iteration time can be short with use of powerful RAD tools.
+
+- Productivity with fewer people in a short time.
+
+- Reduced development time.
+
+- Increases reusability of components.
+
+- Quick initial reviews occur.
+
+- Encourages customer feedback.
+
+- Integration from very beginning solves a lot of integration issues.
+
+**Disadvantages**
+
+The disadvantages of the RAD Model are as follows −
+
+- Dependency on technically strong team members for identifying business requirements.
+
+- Only system that can be modularized can be built using RAD.
+
+- Requires highly skilled developers/designers.
+
+- High dependency on Modelling skills.
+
+- Inapplicable to cheaper projects as cost of Modelling and automated code generation is very high.
+
+- Management complexity is more.
+
+- Suitable for systems that are component based and scalable.
+
+- Requires user involvement throughout the life cycle.
+
+- Suitable for project requiring shorter development times.
