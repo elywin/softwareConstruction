@@ -18,6 +18,8 @@ Deployment of system − Once the functional and non-functional testing is done;
 
 Maintenance − There are some issues which come up in the client environment. To fix those issues, patches are released. Also to enhance the product some better versions are released. Maintenance is done to deliver these changes in the customer environment.
 
+<img src="sdl_waterfall_model.jpg" width="1000" >
+
 ## Application
 
 ## Advantages
