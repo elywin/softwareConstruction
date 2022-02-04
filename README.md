@@ -71,7 +71,7 @@ Iterative process starts with a simple implementation of a subset of the softwar
 
 **Application**
 
-**Advantages**
+**Advantages**<br>
 Some of the advantages of the Iterative and Incremental SDLC Model are as follows −
 
 - Some working functionality can be developed quickly and early in the life cycle.
@@ -104,7 +104,7 @@ Some of the advantages of the Iterative and Incremental SDLC Model are as follow
 
 - During the life cycle, software is produced early which facilitates customer evaluation and feedback.
 
-**Disadvantages**
+**Disadvantages**<br>
 Some of the disadvantages of the Iterative and Incremental SDLC Model are as follows −
 
 - More resources may be required.
@@ -126,3 +126,73 @@ Some of the disadvantages of the Iterative and Incremental SDLC Model are as fol
 - Highly skilled resources are required for risk analysis.
 
 - Projects progress is highly dependent upon the risk analysis phase.
+
+## V-Model
+Under the V-Model, the corresponding testing phase of the development phase is planned in parallel. So, there are Verification phases on one side of the ‘V’ and Validation phases on the other side. The Coding Phase joins the two sides of the V-Model.
+
+<img src="sdlc_v_model.jpg" width="500" >
+
+
+**Verification Phases**
+
+**Business Requirement Analysis**<br>
+This is the first phase in the development cycle where the product requirements are understood from the customer’s perspective. This phase involves detailed communication with the customer to understand his expectations and exact requirement. The acceptance test design planning is done at this stage as business requirements can be used as an input for acceptance testing.
+
+**System Design**<br>
+Once you have the clear and detailed product requirements, it is time to design the complete system. The system design will have the understanding and detailing the complete hardware and communication setup for the product under development. The system test plan is developed based on the system design. Doing this at an earlier stage leaves more time for the actual test execution later.
+
+**Architectural Design**<br>
+Architectural specifications are understood and designed in this phase. Usually more than one technical approach is proposed and based on the technical and financial feasibility the final decision is taken. The system design is broken down further into modules taking up different functionality. This is also referred to as High Level Design.
+
+**Module Design**<br>
+In this phase, the detailed internal design for all the system modules is specified, referred to as Low Level Design (LLD). It is important that the design is compatible with the other modules in the system architecture and the other external systems. The unit tests are an essential part of any development process and helps eliminate the maximum faults and errors at a very early stage. These unit tests can be designed at this stage based on the internal module designs.
+
+**Coding Phase**
+
+The actual coding of the system modules designed in the design phase is taken up in the Coding phase. The best suitable programming language is decided based on the system and architectural requirements. The coding is performed based on the coding guidelines and standards. The code goes through numerous code reviews and is optimized for best performance before the final build is checked into the repository.
+
+**Validation Phases**
+
+The different Validation Phases in a V-Model are explained in detail below.
+
+**Unit Testing**<br>
+Unit tests designed in the module design phase are executed on the code during this validation phase. Unit testing is the testing at code level and helps eliminate bugs at an early stage, though all defects cannot be uncovered by unit testing.
+
+**Integration Testing**<br>
+Integration testing is associated with the architectural design phase. Integration tests are performed to test the coexistence and communication of the internal modules within the system.
+
+**System Testing**<br>
+System testing is directly associated with the system design phase. System tests check the entire system functionality and the communication of the system under development with external systems. Most of the software and hardware compatibility issues can be uncovered during this system test execution.
+
+**Acceptance Testing**<br>
+Acceptance testing is associated with the business requirement analysis phase and involves testing the product in user environment. Acceptance tests uncover the compatibility issues with the other systems available in the user environment. It also discovers the non-functional issues such as load and performance defects in the actual user environment.
+
+**Application**
+
+**Advantages**
+
+The advantages of the V-Model method are as follows −
+
+- This is a highly-disciplined model and Phases are completed one at a time.
+
+- Works well for smaller projects where requirements are very well understood.
+
+- Simple and easy to understand and use.
+
+- Easy to manage due to the rigidity of the model. Each phase has specific deliverables and a review process.
+
+**Disadvantages**
+
+The disadvantages of the V-Model method are as follows −
+
+- High risk and uncertainty.
+
+- Not a good model for complex and object-oriented projects.
+
+- Poor model for long and ongoing projects.
+
+- Not suitable for the projects where requirements are at a moderate to high risk of changing.
+
+- Once an application is in the testing stage, it is difficult to go back and change a functionality.
+
+- No working software is produced until late during the life cycle.
