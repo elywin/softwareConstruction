@@ -382,3 +382,36 @@ The disadvantages of the RAD Model are as follows −
 - Requires user involvement throughout the life cycle.
 
 - Suitable for project requiring shorter development times.
+
+## Big Bang Model
+The Big Bang model is an SDLC model where we do not follow any specific process. The development just starts with the required money and efforts as the input, and the output is the software developed which may or may not be as per customer requirement.
+
+> This model is ideal for small projects with one or two developers working together and is also useful for academic or practice projects. It is an ideal model for the product where requirements are not well understood and the final release date is not given.
+
+**Advanatges**
+
+The advantages of the Big Bang Model are as follows −
+
+- This is a very simple model
+
+- Little or no planning required
+
+- Easy to manage
+
+- Very few resources required
+
+- Gives flexibility to developers
+
+- It is a good learning aid for new comers or students.
+
+**Disadvantages**
+
+The disadvantages of the Big Bang Model are as follows −
+
+- Very High risk and uncertainty.
+
+- Not a good model for complex and object-oriented projects.
+
+- Poor model for long and ongoing projects.
+
+- Can turn out to be very expensive if requirements are misunderstood.
