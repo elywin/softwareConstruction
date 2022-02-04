@@ -196,3 +196,52 @@ The disadvantages of the V-Model method are as follows −
 - Once an application is in the testing stage, it is difficult to go back and change a functionality.
 
 - No working software is produced until late during the life cycle.
+
+## Spiral Model
+The spiral model has four phases. A software project repeatedly passes through these phases in iterations called Spirals.
+
+<img src="sdlc_spiral_model.jpg" width="500" >
+
+
+**Identification**<br>
+This phase starts with gathering the business requirements in the baseline spiral. In the subsequent spirals as the product matures, identification of system requirements, subsystem requirements and unit requirements are all done in this phase. This phase also includes understanding the system requirements by continuous communication between the customer and the system analyst. At the end of the spiral, the product is deployed in the identified market.
+
+**Design**<br>
+The Design phase starts with the conceptual design in the baseline spiral and involves architectural design, logical design of modules, physical product design and the final design in the subsequent spirals.
+
+**Construct or Build**<br>
+The Construct phase refers to production of the actual software product at every spiral. In the baseline spiral, when the product is just thought of and the design is being developed a POC (Proof of Concept) is developed in this phase to get customer feedback.
+
+**Evaluation and Risk Analysis**<br>
+Risk Analysis includes identifying, estimating and monitoring the technical feasibility and management risks, such as schedule slippage and cost overrun. After testing the build, at the end of first iteration, the customer evaluates the software and provides feedback.
+
+**Advantages**
+
+The advantages of the Spiral SDLC Model are as follows −
+
+- Changing requirements can be accommodated.
+
+- Allows extensive use of prototypes.
+
+- Requirements can be captured more accurately.
+
+- Users see the system early.
+
+- Development can be divided into smaller parts and the risky parts can be developed earlier which helps in better risk management.
+
+**Disadvantages**
+
+The disadvantages of the Spiral SDLC Model are as follows −
+
+- Management is more complex.
+
+- End of the project may not be known early.
+
+- Not suitable for small or low risk projects and could be expensive for small projects.
+
+- Process is complex
+
+- Spiral may go on indefinitely.
+
+- Large number of intermediate stages requires excessive documentation.
+
