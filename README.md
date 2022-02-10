@@ -36,7 +36,7 @@ The sequential phases in Waterfall model are −
 
 - Maintenance − There are some issues which come up in the client environment. To fix those issues, patches are released. Also to enhance the product some better versions are released. Maintenance is done to deliver these changes in the customer environment.
 
-<img src="sdlc_waterfall_model.jpg" width="500" >
+<img src="images/sdlc_waterfall_model.jpg" width="500" >
 
 **Application**<br>
 
@@ -84,7 +84,7 @@ Some of the major advantages of the Waterfall Model are as follows −
 
 Iterative process starts with a simple implementation of a subset of the software requirements and iteratively enhances the evolving versions until the full system is implemented. At each iteration, design modifications are made and new functional capabilities are added.
 
-<img src="sdlc_iterative_model.jpg" width="500" >
+<img src="images/sdlc_iterative_model.jpg" width="500" >
 
 
 **Application**
@@ -148,7 +148,7 @@ Some of the disadvantages of the Iterative and Incremental SDLC Model are as fol
 ## V-Model
 Under the V-Model, the corresponding testing phase of the development phase is planned in parallel. So, there are Verification phases on one side of the ‘V’ and Validation phases on the other side. The Coding Phase joins the two sides of the V-Model.
 
-<img src="sdlc_v_model.jpg" width="500" >
+<img src="images/sdlc_v_model.jpg" width="500" >
 
 
 **Verification Phases**
@@ -218,7 +218,7 @@ The disadvantages of the V-Model method are as follows −
 ## Spiral Model
 The spiral model has four phases. A software project repeatedly passes through these phases in iterations called Spirals.
 
-<img src="sdlc_spiral_model.jpg" width="500" >
+<img src="images/sdlc_spiral_model.jpg" width="500" >
 
 
 **Identification**<br>
@@ -273,7 +273,7 @@ Agile SDLC model is a combination of iterative and incremental process models wi
 - Unit Testing and
 - Acceptance Testing.
 
-<img src="sdlc_agile_model.jpg" width="500" >
+<img src="images/sdlc_agile_model.jpg" width="500" >
 
 
 The most popular Agile methods include Rational Unified Process (1994), Scrum (1995), Crystal Clear, Extreme Programming (1996), Adaptive Software Development, Feature Driven Development, and Dynamic Systems Development Method (DSDM) (1995).
@@ -337,7 +337,7 @@ The disadvantages of the Agile Model are as follows −
 ## RAD Model
 RAD model distributes the analysis, design, build and test phases into a series of short, iterative development cycles.
 
-<img src="sdlc_rad_model.jpg" width="500" >
+<img src="images/sdlc_rad_model.jpg" width="500" >
 
 
 Following are the various phases of the RAD Model −
