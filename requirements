@@ -1,10 +1,10 @@
  								##CAMPUS EVENT##
 
 
-#INTRODUCTION
+# INTRODUCTION
 An event scheduling and viewing platform. The Campus Event System has been developed to override the problems prevailing from the manual system. This software is supported to eliminate and, in some cases, reduce the hardships faced by this existing system. Moreover, this system is designed for the particular needs in the university or organisation to carry out operations smoothly and effectively.
  
-#PURPOSE
+# PURPOSE
 The purpose of the Campus Event System is to automate the existing manual system with the help of computerized equipment and full-fledged computer software, fulfilling their requirements, so that the information of events can be stored for a longer period with easy accessing and manipulation incase of any changes:say the dates.
 
 The Campus Event System, as described above, can lead to an error-free, secure, reliable and fast management system. It can assist the user to concentrate on their other activities and just wait for a reminder if thye choose to attend an event rather than looking for notice boards and forget. Thus, it will help the university in better utilization of resources. The university can maintain computerized records of events adjust when need be. That means that one need not be distracted by information that is not relevant while being able to reach the information.
@@ -12,10 +12,10 @@ The Campus Event System, as described above, can lead to an error-free, secure, 
 The aim is to automate its existing manual system with the help of computerized equipment and full-fledged computer software, fulfilling their requirements, so that the information or events can be stored for a longer period with easy access and manipulation.
  
  
-#INTENDED AUDIENCE & USE
+**INTENDED AUDIENCE & USE**
 The main users of this system will be; the staff members and students; staff will post events and manage them, Students will use it for checking for availability of events and set reminders.
 
-#SCOPE
+# SCOPE
 An event management system will be applicable everywhere, where events exists. It will be a more efficient and easier way to have a record on systems through which everyone can easily access it according to his rights as compared to the traditional event management system or putting up posters. Every enterprise  will prefer the online event management system instead of the traditional system as it contains many useful features and the fastest methods for advertisment.
 
 The Campus Event System will allow any user to create an account. The user, after he/she has successfully created an account and approved, will have access to the system features. The system will allow registered users to browse, search, view event details and also set reminders. The Campus-E also allows the admin to manage the system with full create, retrieve, update and delete (CRUD) functionality with regards to events in the system.
@@ -23,7 +23,7 @@ The Campus Event System will allow any user to create an account. The user, afte
 The Camps Event system will have numerous constraints on what it can do. It will not allow the admin to be the common user. The system will not allow the user to delete the events as it’s only the admin that is supposed to add, delete and have full access to the system.
  
 
-##Definitions and Acronyms
+# Definitions and Acronyms
 
 EPS      E-Payment System
 CRUD     Create, Retrieve, Update, Delete
@@ -31,70 +31,71 @@ admin    A single person that can create, retrieve, update and delete event deta
 User(s)  The people who interact with the E-payment system
 
 
-#Assumptions and Dependencies
+# Assumptions and Dependencies
 
-##Users:
+**Users:**<br>
 I assume that all of the computer systems or mobile devices are in
 proper working conditions and that the user is capable of operating these system's basic
 functions including but not limited to being able to power on the system, login and open
 the Campus Event system with ease.
 
-##Provider:
+**Provider:**<br>
 I assume that the Campus Event system will be running on a properly working web server and
 database system with an Internet connection that allows this system to perform all
 communications with the System users.
 
-##Assumptions:
+**Assumptions:**<br>
 The admin’s username and password may be hardcoded.
 The Campus Event System will not affect the environment at all.
 Different organizations and enterprises will be free to adopt it because it will not be so expensive.
 Any user cannot edit their account information.
 
-#System Features and Requirements
+# System Features and Requirements
 
-#Functional Requirements
->The system should allow the user to view a detailed description of a particular event.
->The system should allow the user to log in to the system using their username and password.
->The system should show a detailed description of a particular event.
->The system should allow the admin to create, edit and delete an event.
->The system should be able to add event to calendar.
+**Functional Requirements**
 
-#External Interface Requirements
+- The system should allow the user to view a detailed description of a particular event.
+- The system should allow the user to log in to the system using their username and password.
+- The system should show a detailed description of a particular event.
+- The system should allow the admin to create, edit and delete an event.
+- The system should be able to add event to calendar.
 
-##User interface
+**External Interface Requirements**
+
+**User interface**<br>
 The system contains the following user interfaces:
->Login page for authenticating registered users. This screen should accept user email, password and authenticate against registered with information. It also provides features for new user registration.
->Registration page for registering users. This screen should accept user email, password and store them in database.
->Events page displays the existing events along with their details.
+- Login page for authenticating registered users. This screen should accept user email, password and authenticate against registered with information. It also provides features for new user registration.
+- Registration page for registering users. This screen should accept user email, password and store them in database.
+- Events page displays the existing events along with their details.
 
-##Hardware interface
+**Hardware interface**<br>
 The System must run over the internet, the hardware shall be required to connect to the internet, computer, phone or tablet.
 
-##Software and communication interface 
+**Software and communication interface**<br>
 The system is hosted on a server so it requires a scripting language like PHP, etc. The system requires a database to store any event posted on the system like MYSQL etc. The system also requires a domain name space for identification on the internet, the system shall use the HTTP protocol for communication over the internet and a web browser through which a user can be able to access the system.
 
-#Nonfunctional Requirements
+**Nonfunctional Requirements**
 
-##Performance requirements
+**Performance requirements**<br>
 Performance should be Optimal because server queries involve small pieces of data. Changing screens will require very little computation and thus will occur very quickly. Server updates should only take a few seconds as long as the phone can maintain a steady signal.
 
-##SAFETY REQUIREMENTS
+**SAFETY REQUIREMENTS**<br>
 The system will not affect data stored outside of its servers nor will it affect any other applications installed on the user’s phone. It cannot cause any damage to the phone or its internal components. The only potential safety concern associated with this application applies to virtually all handset apps: Device should not be used while operating a vehicle or in any other situation where the user’s attention must be focused elsewhere.
 
-##SECURITY REQUIREMENTS
+**SECURITY REQUIREMENTS**<br>
 This application assumes that only the user or whoever is allowed will have access to the phone. a Google email address is required to verify the identity of the user upon opening the app and a password to authenticate the user’s identiit’ssAny transaction must be authorized and confirmed before becoming final. To ensure that no fraudulent transactions occur.
 
-##SOFTWARE QUALITY ATTRIBUTES
+**SOFTWARE QUALITY ATTRIBUTES**<br>
 >The graphical user interface of the System is to be designed with usability as the priority. The system will be presented and organized in a manner that is both visually appealing and easy for the user to navigate.
 The system is to be used on all platforms, thus the software application has the advantage of being portable and convenient to use whenever and wherever. Overall, the system balances both the ease of use and the ease of learning.
 
-##Maintainable:
+**Maintainable:**<br>
 Each of the modules should be designed in such a way that a new module can easily be integrated with it, that is to say, the time required for a solution or its component to be fixed, changed to increase performance or other qualities, or adapted to a changing environment.
 
-##Scalability:
+**Scalability:**<br>
 The system can handle the highest workloads under which the system will still meet the performance requirements.
 
-##Reliability and Availability
+**Reliability and Availability**<br>
 The system will be able to run without a failure for a given period under predefined conditions: that is services such as monitoring the availability of the origin infrastructure and rerouting requests when the origin is not available are put in place.
 
 
