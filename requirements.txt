@@ -25,7 +25,6 @@ The Camps Event system will have numerous constraints on what it can do. It will
 
 ##Definitions and Acronyms
 
-EPS      E-Payment System
 CRUD     Create, Retrieve, Update, Delete
 admin    A single person that can create, retrieve, update and delete event details and manage the system.
 User(s)  The people who interact with the E-payment system
