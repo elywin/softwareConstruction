@@ -12,18 +12,16 @@ import java.util.stream.Collectors;
 
 public class ModelMapper {
 
-    public static EventResponse mapEventToEventResponse(Event Event, User creator) {
-        EventResponse EventResponse = new EventResponse();
-        EventResponse.setId(Event.getId());
-        EventResponse.setEventname(Event.getEventname());
-        EventResponse.setLocation(Event.getLocation());
-        EventResponse.setDate(Event.getDate());
-        EventResponse.setTime(Event.getTime());
+	public static EventResponse mapEventToEventResponse(Event Event, User creator) {
+		EventResponse EventResponse = new EventResponse();
+		EventResponse.setId(Event.getId());
+		EventResponse.setEventname(Event.getEventname());
+		EventResponse.setLocation(Event.getLocation());
+		EventResponse.setDate(Event.getDate());
 
-        UserSummary creatorSummary = new UserSummary(creator.getId(), creator.getUsername(), creator.getName());
-        EventResponse.setCreatedBy(creatorSummary);
+		UserSummary creatorSummary = new UserSummary(creator.getId(), creator.getUsername(), creator.getName());
+		EventResponse.setCreatedBy(creatorSummary);
 
-
-        return EventResponse;
-    }
+		return EventResponse;
+	}
 }

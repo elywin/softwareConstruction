@@ -9,10 +9,7 @@ import javax.annotation.PostConstruct;
 import java.util.TimeZone;
 
 @SpringBootApplication
-@EntityScan(basePackageClasses = { 
-		CampuseventApplication.class,
-		Jsr310JpaConverters.class 
-})
+@EntityScan(basePackageClasses = { CampuseventApplication.class, Jsr310JpaConverters.class })
 public class CampuseventApplication {
 
 	@PostConstruct

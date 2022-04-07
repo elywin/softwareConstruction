@@ -8,41 +8,39 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 public class EventRequest {
-	
-	    @NotBlank
-	    @Size(min = 4, max = 40)
-	    private String eventname;
 
-	    @NotBlank
-	    @Size(min = 3, max = 15)
-	    private String location;
-	    
-	    @NotNull
-	    private Date date;
+	@NotBlank
+	@Size(min = 4, max = 40)
+	private String eventname;
 
-		public String getEventname() {
-			return eventname;
-		}
+	@NotBlank
+	@Size(min = 3, max = 15)
+	private String location;
 
-		public void setEventname(String eventname) {
-			this.eventname = eventname;
-		}
+	private Date date;
 
-		public String getLocation() {
-			return location;
-		}
+	public String getEventname() {
+		return eventname;
+	}
 
-		public void setLocation(String location) {
-			this.location = location;
-		}
+	public void setEventname(String eventname) {
+		this.eventname = eventname;
+	}
 
-		public Date getDate() {
-			return date;
-		}
+	public String getLocation() {
+		return location;
+	}
 
-		public void setDate(Date date) {
-			this.date = date;
-		}
+	public void setLocation(String location) {
+		this.location = location;
+	}
 
-	    
+	public Date getDate() {
+		return date;
+	}
+
+	public void setDate(Date date) {
+		this.date = date;
+	}
+
 }

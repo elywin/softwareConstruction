@@ -10,17 +10,11 @@ import java.util.Optional;
 
 @Repository
 public interface EventRepository extends JpaRepository<Event, Long> {
-	 Optional<Event> findByLocation(String location );
+	Optional<Event> findByLocation(String location);
 
-	    
-	    long countByCreatedBy(Long userId);
-	    
-	    Page<Event> findByCreatedBy(Long userId, Pageable pageable);
+	Optional<Event> findByEventname(String eventname);
 
+	Boolean existsByEventname(String eventname);
 
-	    Optional<Event> findByEventname(String eventname);
-
-	    Boolean existsByEventname(String eventname);
-
-	    Boolean existsByLocation(String location);
+	Boolean existsByLocation(String location);
 }

@@ -1,89 +1,84 @@
 package com.example.campusevent.model;
 
+import com.example.campusevent.model.audit.DateAudit;
 import com.example.campusevent.model.audit.UserDateAudit;
-
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 import java.util.Date;
 
-
 @Entity
-@Table(name = "event", uniqueConstraints = {
-		@UniqueConstraint(columnNames= {
-				"eventname"
-		})
-})
+@Table(name = "event", uniqueConstraints = { @UniqueConstraint(columnNames = { "eventname" }) })
 
-public class Event extends UserDateAudit {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public class Event extends DateAudit {
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
 
-    @NotBlank
-    @Size(max = 40)
-    private String eventname;
+	@NotNull
+	@Size(max = 40)
+	private String eventname;
 
-    @NotBlank
-    @Size(max = 20)
-    private String location;
+	@NotNull
+	@Size(max = 20)
+	private String location;
 
-    @NotBlank
-    private Date date;
-    
-    @NotBlank
-    @Size(max = 10)
-    private String time;
+	private Date date;
 
-    public Event() {
+//    @NotNull
+//    @Size(max = 10)
+//    private String time;
 
-    }
+	public Event() {
 
-    public Event(String eventname, String location, Date date,String time ) {
-        this.eventname = eventname;
-        this.location = location;
-        this.date = date;
-        this.time = time;
-    }
+	}
 
-    public Long getId() {
-        return id;
-    }
+	public Event(String eventname, String location, Date date) {
+		this.eventname = eventname;
+		this.location = location;
+		this.date = date;
+//        this.time = time;
+	}
 
-    public void setId(Long id) {
-        this.id = id;
-    }
+	public Long getId() {
+		return id;
+	}
 
-    public String getEventname() {
-        return eventname;
-    }
+	public void setId(Long id) {
+		this.id = id;
+	}
 
-    public void setEventname(String eventname) {
-        this.eventname = eventname;
-    }
+	public String getEventname() {
+		return eventname;
+	}
 
-    public String getLocation() {
-        return location;
-    }
+	public void setEventname(String eventname) {
+		this.eventname = eventname;
+	}
 
-    public void setLocation(String location) {
-        this.location = location;
-    }
+	public String getLocation() {
+		return location;
+	}
 
-    public Date getDate() {
-        return date;
-    }
+	public void setLocation(String location) {
+		this.location = location;
+	}
 
-    public void setDate(Date date) {
-        this.date = date;
-    }
-    
-    public String getTime() {
-        return time;
-    }
+	public Date getDate() {
+		return date;
+	}
 
-    public void setTime(String time) {
-        this.time = time;
-    }
+	public void setDate(Date date) {
+		this.date = date;
+	}
+
+//    public String getTime() {
+//        return time;
+//    }
+//
+//    public void setTime(String time) {
+//        this.time = time;
+//    }
 }
